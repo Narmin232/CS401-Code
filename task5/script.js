@@ -1,43 +1,85 @@
-const students = [
-    {
-        id: 1,
-        username: "Anar",
-        gender: 'Male',
-        age: 25,
-    },
-    {
-        id: 2,
-        username: "Narmin",
-        gender: 'Female',
-        age: 20, },
-    {
-        id: 3,
-        username: "Gulsen",
-        gender: 'Female',
-        age: 27,
-    },
-    
-]
+// let fullName = 'Ulfat Zakirli Rovshen';
 
-// const femaleStudents = students.filter(student => student.gender === 'Female')
-// console.log(femaleStudents)
+// let lettersArray = fullName.split('');
+// console.log(lettersArray);
 
-// const ageStudents = students.filter(student => student.age > 22)
-// console.log(ageStudents);
 
-// let sum = 0 ;
-// for (let i = 0; i < students.length; i++) {
-//     sum += students[i].age;
+// let nameParts = fullName.split(' ');
+// let reversedName = [nameParts[nameParts.length - 1], ...nameParts.slice(0, nameParts.length - 1)].join(' ');
+// console.log( reversedName);
+
+// let nameParts = fullName.split(' ');
+// let reversedName = [nameParts[nameParts.length - 1], ...nameParts.slice(0, nameParts.length - 1)];
+
+// let reversedNameString = reversedName.join(' ');
+// console.log(reversedNameString);
+
+// let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7];
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 5) {
+//         count++;
+//     }
 // }
-// console.log(sum);
-
-// students.map(Item => sum += Item.age )
-// console.log(sum);
-// const idStr = students.id;
-// console.log(idStr)
 
 
-// console.log(students.map(Item => Item.id));             
+// for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+// }
 
-const usernameStudents = students.map(student => student.username )
-console.log(usernameStudents);
+// console.log( + sum);
+
+// let counts = {};
+
+// arr.forEach(num => {
+//     if (counts[num]) {
+//         counts[num]++;
+//     } else {
+//         counts[num] = 1;
+//     }
+// });
+
+// let repeatingNumbers = Object.keys(counts)
+//     .filter(num => counts[num] > 1)
+//     .sort((a, b) => a - b)
+//     .map(Number);
+
+// console.log(repeatingNumbers);
+
+
+// let maxNumber = Math.max(...arr);
+
+// let count = arr.reduce((acc, curr) => curr === maxNumber ? acc + 1 : acc, 0);
+
+// console.log( 7+ maxNumber);
+// console.log(3 + count + 2);
+
+// let name = "Narmin";
+// let arr = [4, 5, 2, 1, 5, 2, 5, 3, 5, 6, 2, 1, 6, 2, 6, 2, 5, 3, 2, 7, 4, 6, 4, 5, 6, 2, 5, 6, 3, 7, 3, 7];
+
+// let nameLength = name.length;
+
+// if (arr.includes(nameLength)) {
+//     console.log( ${name} ${nameLength});
+// } else {
+//     console.log(${name} ${nameLength});
+// }
+
+
+// let firstThreeNumbers = arr.slice(0, 3);
+
+// let remainder = firstThreeNumbers.reduce((acc, curr) => acc % curr);
+// let index = arr.indexOf(remainder);
+
+// console.log(remainder);
+// console.log( index);
+
+
+// let sumOfIndexes = arr.reduce((acc, curr, index) => {
+//     if (curr === 7) {
+//         return acc + index;
+//     }
+//     return acc;
+// }, 0);
+
+// console.log(sumOfIndexes);
