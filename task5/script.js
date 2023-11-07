@@ -82,4 +82,4 @@
 //     return acc;
 // }, 0);
 
-// console.log(sumOfIndexes);
+//  console.log(sumOfIndexes);
